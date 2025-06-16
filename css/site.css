@@ -1,0 +1,22 @@
+.editor-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+
+.paper {
+    width: 794px; /* A4 width in px @ 96dpi */
+    min-height: 1123px; /* A4 height */
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+
